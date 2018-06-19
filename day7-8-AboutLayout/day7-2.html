@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>第七天作业2</title>
+	<link type="text/css" rel="stylesheet" href="day7-2.css">
+</head>
+<body>
+	<div class="header">
+		<div class="header1">
+			<p class="logo">Logo</p>
+			<ul>
+				<li><a href="#" target="_blank">Github</a></li>
+				<li><a href="#" target="_blank">Register</a></li>
+				<li><a href="#" target="_blank">Login</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="banner">
+         <ol>
+         	<li><span class="span1">1</span></li>
+         	<li><span class="span2">2</span></li>
+         	<li><span class="span3">3</span></li>
+         	<li><span class="span4">4</span></li>
+         </ol>
+	</div>
+
+    <div class="midMain">
+    	<ul>
+    		<li><a href="#" class="first">HOME</a></li>
+    		<li><a href="#">PROFILE</a></li>
+    		<li><a href="#">ABOUT</a></li>
+    	</ul>
+    <div class="mainLine"></div>
+    <div class="panels">
+    	<article class="firstBox">
+    	    <div class="content1">
+    			<h3>This is Content1</h3>
+    		</div>
+    		<div class="content2">
+    			<h3>Maybe Content 2</h3>
+    		</div>
+    		<div class="content3">
+    			<h3>Content 3</h3>
+    		</div>
+    		<div class="content4">
+    			<h5>Con 4</h5>
+    		</div>
+    		<div class="content5">
+    			<h3>Content 5</h3>
+    		</div>
+    		<div class="content6">
+    			<h5>Con 6</h5>
+    		</div>
+    		<div class="content7">
+    			<h5>Con 7</h5>
+    		</div>
+    		<div class="content8">
+    			<h3>Content 8</h3>
+    		</div>
+    		<div class="content9">
+    			<h3>Content 9</h3>
+    		</div>
+    		<div class="content10">
+    			<h3>Content10 And The End</h3>
+    		</div> 
+    	</article>
+
+    	<article>
+			<h1>The second </h1><br/>
+			<p>This is the second part<br/>
+               In this part，profile is of vital importance.<br/>
+               And There are so many documents.<br/>
+			</p>
+		</article>
+
+		<article>
+			<h1>The third tab</h1><br/>
+			<p>This is the third part<br/>
+  				In this part，you will know more about us and our company、our produce!
+			</p>
+		</article>
+    </div>
+    </div>
+    	<p class="footer">@2018 ife.baidu.com</p>
+<script>
+var tabs = document.querySelectorAll('.midMain li a');
+var panels = document.querySelectorAll('.midMain article');
+for(i = 0; i < tabs.length; i++) {
+var tab = tabs[i];
+setTabHandler(tab, i);
+}
+function setTabHandler(tab, tabPos) {
+tab.onclick = function() {
+for(i = 0; i < tabs.length; i++) {
+tabs[i].className = '';
+}
+tab.className = 'first';
+for(i = 0; i < panels.length; i++) {
+panels[i].className = '';
+}
+panels[tabPos].className = 'firstBox';
+}
+} 
+</script> 
+</body>
+</html>

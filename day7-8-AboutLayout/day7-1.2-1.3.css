@@ -1,0 +1,46 @@
+/*  1.2--float方法
+.left{
+	float:left;
+	width:250px;
+	height:150px;
+	background-color: gray;
+}
+.right{
+	width:100%;
+	height:150px;
+	background-color: lightblue;
+}*/
+
+/*  1.2--flexbox方法  
+body{
+	width:98.8%;
+	display:inline-flex;
+}
+.left{
+	width:250px;
+	height:150px;
+	background-color: gray;
+}
+.right{
+	width:100%;
+	height:150px;
+	background-color: lightblue;
+}
+*/
+
+/*  1.3--float与flexbox结合  */
+body{
+	width:98.8%;
+	display:inline-flex;
+}
+.left{
+	width:100%;
+	height:150px;
+	background-color:gray;
+}
+.right{
+	float:right;
+	width:250px;
+	height:150px;
+	background-color:lightblue;
+}

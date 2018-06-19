@@ -1,0 +1,44 @@
+/*  1.4--float与flexbox方法结合
+body{
+	width:98.8%;
+	display:inline-flex;
+}
+.left{
+	float:left;
+	width:250px;
+	height:150px;
+	background-color:gray;
+}
+.middle{
+	width:100%;
+	height:150px;
+	background-color:lightpink;
+}
+.right{
+	float:right;
+	width:250px;
+	height:150px;
+	background-color:lightblue;
+}*/
+
+/*  1.5--float与flexbox方法结合 */
+body{
+	width:98.8%;
+	display:inline-flex;
+}
+.left{
+	width:250px;
+	height:150px;
+	background-color:gray;
+}
+.middle{
+    width:250px;
+    height:150px;
+    background-color:lightpink;
+}
+.right{
+	width:100%;
+	height: 150px;
+	background-color:lightblue;
+}
+

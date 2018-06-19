@@ -1,0 +1,49 @@
+/*  1.1--float方法
+.left{
+	float:left;
+	width:30%;
+	height:150px;
+	background-color: gray;
+}
+.right{
+	height:150px;
+	background-color: lightblue;
+}*/
+
+
+/*  1.1--position方法
+body{
+	margin:0;
+}
+.left{
+	position:absolute;
+	top:0;
+	left:0;
+	width:30%;
+	height:150px;
+	background-color:gray;
+}
+.right{
+	position:absolute;
+	top:0;
+	left:384px;
+	width:70%;	
+	height: 150px;
+	background-color: lightblue;
+}
+*/
+
+/*  1.1--flexbox方法  */
+body{
+	display: flex;
+}
+.left{
+	width:30%;
+	height:150px;
+	background-color:gray;
+}
+.right{
+	width: 70%;
+	height:150px;
+	background-color:lightblue;
+}
