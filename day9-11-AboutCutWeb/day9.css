@@ -1,0 +1,304 @@
+body{
+	width:98%;
+}
+.img1{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}	
+.info{
+	width:100%;
+	height:540px;
+}
+.infoTop{
+	text-align:center;
+}
+.infoTop p{
+	font-size:15px;
+	margin-top:30px;
+}
+.infoBot{
+	width:820px;
+	height:400px;
+	margin:0 auto;
+	margin-top:70px;
+}
+.botDiv{
+	width:350px;
+	height:100px;
+	margin-left: 40px;
+	display:inline-flex;
+}
+.botDiv img{
+	float:left;
+	height:80px;
+}
+.botDiv article{
+	float:right;
+}
+.botHeader{
+	font-size:20px;
+	margin-left:5px;
+}
+.botMain{
+	font-size:15px;
+}
+.infoBott{
+	width:820px;
+	height:200px;
+	margin:0 auto;
+	margin-top:100px;
+}
+.img2{
+	width:100%;
+	height:auto;
+}
+.mid{
+	width:100%;
+	height:500px;
+	margin-top:80px;
+	border-bottom:gray solid 2px;
+	text-align:center;
+}
+.midBot{
+	width:1000px;
+	height:320px;
+	margin-top:60px;
+	display:inline-flex;
+}
+.mid p{
+	font-size:30px;
+	font-style:italic;
+	font-family:STXingKai;
+}
+.midDiv{
+	width:auto;
+	height:300px;
+	margin-left:50px;
+}
+.mid article{
+	font-size:20px;
+}
+.mid2{
+	width:1200px;
+	height:900px;
+	border-bottom:gray 2px solid;
+	margin:80px auto;
+}
+.mid2 .mid2Top{
+	width:1200px;
+	height:350px;
+	margin-bottom: 100px;
+	padding:0 150px;
+	box-sizing: border-box;
+}
+.mid2 .mid2Top>img{
+	width:550px;
+	height:350px;
+	margin-right:50px;
+	float: left;
+}
+.mid2 .mid2Top>article{
+	width:300px;
+	height:300px;
+	margin-top:50px;
+	float:left;
+}
+.mid2 .mid2Top>article p{
+	color:lightslategray;
+	word-spacing: 2px;
+}
+.mid2 .mid2Bot{
+	width:1200px;
+	height:350px;
+	padding:0 150px;
+	box-sizing: border-box;
+}
+.mid2 .mid2Bot>img{
+	width:550px;
+	height:350px;
+	margin-left:50px;
+	float: right;
+}
+.mid2 .mid2Bot>article{
+	width:300px;
+	height:280px;
+	margin-top:50px;
+	float:right;
+}
+.mid2 .mid2Bot>article p{
+	word-spacing: 2px;
+	color:lightslategray;
+}
+.mid3{
+	width:900px;
+	height:850px;
+	margin:80px auto;
+	text-align:center;
+}
+.mid3>h2{
+	font-size:40px;
+	font-weight:300;
+}
+.mid3>p{
+	color:lightslategray;
+	width:700px;
+	margin:0 auto;
+}
+.mid3 .mid3Bot{
+	width:900px;
+	height:700px;
+	margin-top:50px;
+}
+.mid3 .mid3Bot .mid3BTop{
+	width:900px;
+	height:300px;
+}
+.mid3 .mid3Bot .mid3BTop .mid3Bot1{
+	float:left;
+	width:400px;
+	height:300px;
+	margin:0 25px;
+}
+.mid3 .mid3Bot .mid3BTop .mid3Bot2{
+	float:left;
+	width:400px;
+	height:300px;
+	margin:0 25px;
+}
+.mid3 .mid3Bot .mid3BBot{
+	width:900px;
+	height:300px;
+	margin-top:50px;
+}
+.mid3 .mid3Bot .mid3BBot .mid3Bot3{
+	float:left;
+	width:400px;
+	height:300px;
+	margin:0 25px;
+}
+/*.mid3Bot3 img:hover .shadow{
+	display: block;
+}*/
+.mid3 .mid3Bot .mid3BBot .mid3Bot4{
+	float:left;
+	width:400px;
+	height:300px;
+	margin:0 25px;
+}
+.mid3 img{
+	width:100%;
+	height:100%;
+}
+.shadow{
+	width:400px;
+	height:300px;
+	background: rgba(0,0,0,0.4);
+	text-align:center;
+	box-sizing: border-box;
+	padding-top:70px;
+	position:absolute;
+	top:4199px;
+	left:201px;
+	/*display: none;*/
+}
+.mid3 .shadow>h4{
+	color:#fff;
+	font-weight:400;
+}
+.mid3 .shadow>h5{
+	color:gray;
+	font-weight:350;
+}
+.mid3 .shadow .sPic{
+	width:200px;
+	height:50px;
+	margin-left:100px;
+	display:flex;
+	justify-content: space-between;
+}
+.mid3 .shadow .sPic>i{
+	width:50px;
+	height:50px;
+	border:1px solid #fff;
+	border-radius: 50%;
+	text-align:center;
+	line-height:50px;
+}
+.mid4{
+	width:900px;
+	height:590px;
+	margin:0 auto;
+	margin-bottom: 80px;
+}
+.mid4 .mid4Form{
+	width:400px;
+	height:550px;
+	border:1px solid gray;
+	border-radius: 3%;
+	text-align:center;
+	float:left;
+}
+.mid4 .mid4Form>h3{
+	margin:30px 0;
+	font-weight:400;
+}
+.mid4 .mid4Form>input{
+	width:312px;
+	height:30px;
+	font-size:18px;
+	margin-bottom: 30px;
+}
+.mid4 .mid4Form>textarea{
+	font-size:20px;
+	margin-bottom: 30px;
+}
+.mid4 .mid4Form>button{
+	width:317px;
+	height:30px;
+	background-color: #000;
+	color:#fff;
+	font-size:15px;
+	border:none;
+}
+.mid4 .mid4Word{
+	width:400px;
+	height: 450px;
+	margin-top:60px;
+	float:right;
+}
+.mid4 .mid4Word>h2{
+	font-size:33px;
+	font-weight:200;
+}
+.mid4 .mid4Word>p{
+	color:gray;
+	word-spacing: 2px;
+}
+.mid4 .mid4Word .d1{
+	margin-top:50px;
+	display: flex;
+	align-items: center;
+}
+.mid4 .mid4Word .d1>img{
+	width:50px;
+	height:50px;
+}
+.mid4 .mid4Word .d2{
+	margin-top:20px;
+	display: flex;
+	align-items: center;
+}
+.mid4 .mid4Word .d2>img{
+	width:50px;
+	height:50px;
+}
+.mid4 .mid4Word .d3{
+	margin-top:20px;
+	display: flex;
+	align-items: center;
+}
+.mid4 .mid4Word .d3>img{
+	width:50px;
+	height:50px;
+}
